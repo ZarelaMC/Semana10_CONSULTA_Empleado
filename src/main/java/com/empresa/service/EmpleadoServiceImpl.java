@@ -45,4 +45,11 @@ public class EmpleadoServiceImpl implements EmpleadoService{
 		return repository.listaEmpleadoNombreApellidoIgualActualiza(nombre, apellido, idEmpleado);
 	}
 
+	/***************** SEMANA 10 *****************/
+	//Consulta
+	@Override
+	public List<Empleado> listaEmpleadoConsulta(int estado) {
+		return repository.listaEmpleadoConsulta(estado);
+	}
+
 }
