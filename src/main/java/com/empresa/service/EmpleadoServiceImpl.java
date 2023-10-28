@@ -12,7 +12,7 @@ import com.empresa.repository.EmpleadoRepository;
 @Service
 public class EmpleadoServiceImpl implements EmpleadoService{
 
-	@Autowired
+	@Autowired 
 	private EmpleadoRepository repository;
 	
 	@Override

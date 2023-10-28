@@ -9,7 +9,7 @@ public interface EmpleadoService {
 	
 	//Crud
 	public abstract Empleado insertaEmpleado(Empleado obj);
-	public abstract Empleado actualizaEmpleado(Empleado obj);
+	public abstract Empleado actualizaEmpleado(Empleado obj); 
 	public abstract List<Empleado> listaPorNombreApellidoLike(String filtro);
 	public abstract Optional<Empleado> buscaEmpleado(int idEmpleado);
 	

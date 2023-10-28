@@ -63,7 +63,7 @@
                     </tr>
             </thead>
 		</table>
-    </div>
+    </div> 
 </div>
 <script type="text/javascript">
 /*Llenar el CBO*/
